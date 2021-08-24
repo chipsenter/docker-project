@@ -15,7 +15,7 @@ public class SearchTest extends BaseTest {
         sp.goTo();
         sp.enterText(keyword);
         sp.goToVideos();
-        sp.getResult();
+        //sp.getResult();
         int actualVideos = sp.getResult();
         Assert.assertTrue(actualVideos > 0);
     }
