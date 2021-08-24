@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite name="All Test Suite" parallel="tests">
 <!--    <test verbose="2" preserve-order="true" name="/Users/jlindstrom/IdeaProjects/Docker_demo">-->
     <test name="book-flight-test1">
         <parameter name="numOfPassengers" value="1"/>
         <parameter name="expectedPrice" value="$584 USD"/>
         <classes>
             <class name="com.newtours.tests.BookFlightTest">
-                <methods>
-                    <include name="registrationPage"/>
-                    <include name="registrationConfirmationPage"/>
-                    <include name="flightDetailsPage"/>
-                    <include name="goToBillingPage"/>
-                    <include name="billingPage"/>
-                    <include name="flightConfirmationValidation"/>
-                </methods>
+<!--                <methods>-->
+<!--                    <include name="registrationPage"/>-->
+<!--                    <include name="registrationConfirmationPage"/>-->
+<!--                    <include name="flightDetailsPage"/>-->
+<!--                    <include name="goToBillingPage"/>-->
+<!--                    <include name="billingPage"/>-->
+<!--                    <include name="flightConfirmationValidation"/>-->
+<!--                </methods>-->
             </class>
         </classes>
     </test>
@@ -23,14 +23,14 @@
         <parameter name="expectedPrice" value="$1169 USD"/>
         <classes>
             <class name="com.newtours.tests.BookFlightTest">
-                <methods>
-                    <include name="registrationPage"/>
-                    <include name="registrationConfirmationPage"/>
-                    <include name="flightDetailsPage"/>
-                    <include name="goToBillingPage"/>
-                    <include name="billingPage"/>
-                    <include name="flightConfirmationValidation"/>
-                </methods>
+<!--                <methods>-->
+<!--                    <include name="registrationPage"/>-->
+<!--                    <include name="registrationConfirmationPage"/>-->
+<!--                    <include name="flightDetailsPage"/>-->
+<!--                    <include name="goToBillingPage"/>-->
+<!--                    <include name="billingPage"/>-->
+<!--                    <include name="flightConfirmationValidation"/>-->
+<!--                </methods>-->
             </class>
         </classes>
     </test>
@@ -39,14 +39,14 @@
         <parameter name="expectedPrice" value="$840 USD"/>
         <classes>
             <class name="com.newtours.tests.BookFlightTest">
-                <methods>
-                    <include name="registrationPage"/>
-                    <include name="registrationConfirmationPage"/>
-                    <include name="flightDetailsPage"/>
-                    <include name="goToBillingPage"/>
-                    <include name="billingPage"/>
-                    <include name="flightConfirmationValidation"/>
-                </methods>
+<!--                <methods>-->
+<!--                    <include name="registrationPage"/>-->
+<!--                    <include name="registrationConfirmationPage"/>-->
+<!--                    <include name="flightDetailsPage"/>-->
+<!--                    <include name="goToBillingPage"/>-->
+<!--                    <include name="billingPage"/>-->
+<!--                    <include name="flightConfirmationValidation"/>-->
+<!--                </methods>-->
             </class>
         </classes>
     </test>
@@ -55,14 +55,14 @@
         <parameter name="expectedPrice" value="$2338 USD"/>
         <classes>
             <class name="com.newtours.tests.BookFlightTest">
-                <methods>
-                    <include name="registrationPage"/>
-                    <include name="registrationConfirmationPage"/>
-                    <include name="flightDetailsPage"/>
-                    <include name="goToBillingPage"/>
-                    <include name="billingPage"/>
-                    <include name="flightConfirmationValidation"/>
-                </methods>
+<!--                <methods>-->
+<!--                    <include name="registrationPage"/>-->
+<!--                    <include name="registrationConfirmationPage"/>-->
+<!--                    <include name="flightDetailsPage"/>-->
+<!--                    <include name="goToBillingPage"/>-->
+<!--                    <include name="billingPage"/>-->
+<!--                    <include name="flightConfirmationValidation"/>-->
+<!--                </methods>-->
             </class>
         </classes>
     </test>

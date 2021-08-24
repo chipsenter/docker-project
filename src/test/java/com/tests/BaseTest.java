@@ -22,14 +22,14 @@ public class BaseTest {
         String host = "localhost";
         DesiredCapabilities dc = DesiredCapabilities.chrome();
 
-//        if(System.getProperty("BROWSER") != null &&
-//                System.getProperty("BROWSER").equalsIgnoreCase("firefox")){
-//            dc = DesiredCapabilities.firefox();
-//        }
-//
-//        if(System.getProperty("HUB_HOST") != null){
-//            host = System.getProperty("HUB_HOST");
-//        }
+        if(System.getProperty("BROWSER") != null &&
+                System.getProperty("BROWSER").equalsIgnoreCase("firefox")){
+            dc = DesiredCapabilities.firefox();
+        }
+
+        if(System.getProperty("HUB_HOST") != null){
+            host = System.getProperty("HUB_HOST");
+        }
 
         String completeURL = "http://" + host + ":4444/wd/hub";
         this.driver = new RemoteWebDriver(new URL(completeURL), dc);
@@ -38,7 +38,7 @@ public class BaseTest {
     @AfterTest
     public void cleanUp(){
         System.out.println("Let's clean up and call it");
-//        driver.manage().deleteAllCookies();
-        driver.close();
+        this.driver.manage().deleteAllCookies();
+        this.driver.quit();
     }
 }
