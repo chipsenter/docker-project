@@ -7,14 +7,6 @@
         <parameter name="expectedPrice" value="$584 USD"/>
         <classes>
             <class name="com.newtours.tests.BookFlightTest">
-<!--                <methods>-->
-<!--                    <include name="registrationPage"/>-->
-<!--                    <include name="registrationConfirmationPage"/>-->
-<!--                    <include name="flightDetailsPage"/>-->
-<!--                    <include name="goToBillingPage"/>-->
-<!--                    <include name="billingPage"/>-->
-<!--                    <include name="flightConfirmationValidation"/>-->
-<!--                </methods>-->
             </class>
         </classes>
     </test>
@@ -23,14 +15,6 @@
         <parameter name="expectedPrice" value="$1169 USD"/>
         <classes>
             <class name="com.newtours.tests.BookFlightTest">
-<!--                <methods>-->
-<!--                    <include name="registrationPage"/>-->
-<!--                    <include name="registrationConfirmationPage"/>-->
-<!--                    <include name="flightDetailsPage"/>-->
-<!--                    <include name="goToBillingPage"/>-->
-<!--                    <include name="billingPage"/>-->
-<!--                    <include name="flightConfirmationValidation"/>-->
-<!--                </methods>-->
             </class>
         </classes>
     </test>
@@ -39,14 +23,6 @@
         <parameter name="expectedPrice" value="$840 USD"/>
         <classes>
             <class name="com.newtours.tests.BookFlightTest">
-<!--                <methods>-->
-<!--                    <include name="registrationPage"/>-->
-<!--                    <include name="registrationConfirmationPage"/>-->
-<!--                    <include name="flightDetailsPage"/>-->
-<!--                    <include name="goToBillingPage"/>-->
-<!--                    <include name="billingPage"/>-->
-<!--                    <include name="flightConfirmationValidation"/>-->
-<!--                </methods>-->
             </class>
         </classes>
     </test>
@@ -55,14 +31,6 @@
         <parameter name="expectedPrice" value="$2338 USD"/>
         <classes>
             <class name="com.newtours.tests.BookFlightTest">
-<!--                <methods>-->
-<!--                    <include name="registrationPage"/>-->
-<!--                    <include name="registrationConfirmationPage"/>-->
-<!--                    <include name="flightDetailsPage"/>-->
-<!--                    <include name="goToBillingPage"/>-->
-<!--                    <include name="billingPage"/>-->
-<!--                    <include name="flightConfirmationValidation"/>-->
-<!--                </methods>-->
             </class>
         </classes>
     </test>
