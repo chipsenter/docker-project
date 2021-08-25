@@ -19,7 +19,8 @@ public class BaseTest {
         // BROWSER => chrome / firefox
         // HUB_HOST => localhost / 10.0.1.3 / hostname
 
-        String host = "localhost";
+        String host1 = "localhost";
+        String host2 = "10.0.0.195";
         DesiredCapabilities dc;
 
         if(System.getProperty("BROWSER") != null &&
@@ -30,10 +31,10 @@ public class BaseTest {
         }
 
         if(System.getProperty("HUB_HOST") != null){
-            host = System.getProperty("HUB_HOST");
+            host2 = System.getProperty("HUB_HOST");
         }
 
-        String completeURL = "http://" + host + ":4444/wd/hub";
+        String completeURL = "http://" + host1 + ":4444/wd/hub";
         this.driver = new RemoteWebDriver(new URL(completeURL), dc);
     }
 
