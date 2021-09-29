@@ -2,9 +2,14 @@ pipeline {
     // master executor should be set to 0
     agent any
     stages {
-        stage('Build Jar') {
+        stage('Setup terminal') {
             steps {
                 sh "source ~/.bash_profile"
+                sh "mvn -version"
+            }
+        }
+        stage('Build Jar') {
+            steps {
                 sh "mvn clean package -DskipTests"
             }
         }
