@@ -9,6 +9,7 @@ pipeline {
                 }
             }
             steps {
+                sh 'source ~/.bash_profile'
                 sh 'mvn clean package -DskipTests'
             }
         }
