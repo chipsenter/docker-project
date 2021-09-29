@@ -1,8 +1,16 @@
 pipeline {
     agent none
     stages {
+        stage("Fix problem "){
+
+            agent any
+
+            steps {
+                sh "sudo chmod 777 root:jenkins /run/docker.sock"
+            }
+        }
         stage('Build Jar') {
-            agent {
+            agent any {
                 docker {
                     image 'maven:3-alpine'
                     args '-v /root/.m2:/root/.m2'
